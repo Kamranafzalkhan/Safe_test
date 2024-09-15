@@ -1,0 +1,41 @@
+.footer-wrapper {
+    margin: 4rem 0rem;
+    display: flex;
+    margin-top: 7rem;
+}
+.footer-logo-container {
+padding-left: 10%;
+}
+.footer-logo-container img{
+width: 150px;
+height: 40px;
+padding-left: 30px;
+}
+.footer-icons {
+margin-top: 2.5rem;
+padding-left: 50px;
+}
+
+.footer-icons svg {
+font-size: 1.5rem;
+margin-right: 1.25rem;
+/* margin-left: 10px; */
+/* padding-left: 10px; */
+color: #585858;
+}
+.footer-section-two {
+flex: 1;
+display: flex;
+justify-content: flex-end;
+}
+.footer-section-columns {
+display: flex;
+flex-direction: column;
+min-width: 190px;
+}
+.footer-section-columns span {
+margin: 0.25rem 4rem;
+font-weight: 600;
+color: #4c4c4c;
+cursor: pointer;
+}

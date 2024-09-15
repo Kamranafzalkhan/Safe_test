@@ -1,0 +1,225 @@
+/*---------------------About Us--------------------------------*/
+
+.about_us-primary-heading{
+    padding-left: 43%;
+}
+.about_us-section1-part1{
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  
+  }
+  .about_us-section-wrapper{
+    background: linear-gradient(360deg,#7a3fe7,#e1ffea22 100%);
+  }
+  .about_us-section-wrapper h1{
+    margin-top: 0px;
+    padding-top: 80px;
+    margin-bottom: 70px;
+    color: black;
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-decoration: underline;
+  
+  }
+  .about_us-section1-bottom
+  {
+    margin: 2rem auto;
+  }
+  .about_us-section1-part1 img{
+    padding-left: 25%;
+  }
+  .about_us-section1-bottom h3{
+    padding-top: 2%;
+    padding-left: 90px;
+  }
+  .about_us-section1-bottom p{
+    padding-top: 5%;
+    padding-left: 80px;
+  }
+  .about_us-section1-bottom jaya{
+    padding-left: 35px;
+  }
+  .about_us-section1-bottom mariya{
+    padding-left: 28px;
+    padding-top: 2%;
+  }
+  .about_us-section1-bottom shah{
+    padding-left: 38px;
+    padding-top: 2%;
+  }
+
+
+
+/*---------------------------Contact Us----------------------------------------*/
+
+.contact-page-wrapper h1 {
+    max-width: 900px !important;
+}
+.contact-page-wrapper {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+/* margin: 6rem 0rem; */
+background: linear-gradient(240deg,#7a3fe7,#e1ffea22 70%);
+height:100vh;
+}
+.contact-form-container {
+background-color: white;
+max-width: 700px;
+width: 100%;
+margin-top: 3rem;
+display: flex;
+align-items: center;
+padding: 1rem;
+border:2px solid black;
+border-radius: 5rem;
+}
+.contact-form-container input {
+flex: 1;
+height: 100%;
+border: none;
+outline: none;
+font-size: 1.3rem;
+padding: 0.5rem 1rem;
+}
+.secondary-button {
+font-size: 1rem;
+padding: 0.8rem 2rem;
+cursor: pointer;
+}
+.secondary-button {
+padding: 1rem 2.5rem;
+background-color: #5b0cdbde;
+outline: none;
+border: none;
+border-radius: 5rem;
+font-size: 1.1rem;
+cursor: pointer;
+font-weight: 600;
+color: white;
+transition: 0.1s;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.secondary-button svg {
+margin-left: 0.75rem;
+font-size: 1.5rem;
+}
+.secondary-button:hover {
+border: 2px solid rgb(87, 7, 141);
+
+}
+
+/*-------------------Login SignUp------------------------------------------------*/
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 200px;
+  width: 600px;
+  background: #fff;
+  padding-bottom: 30px;
+
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top:30px;
+
+}
+
+.text{
+  color: #3c009d;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.underline{
+  width: 61px;
+  height: 6px;
+  background: #3c009d;
+  border-radius: 9px;
+}
+.inputs{
+  margin-top:55px;
+  display:flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
+.input img{
+  margin:0px 30px;
+
+}
+.input input{
+  height:50px;
+  width:400px;
+  background:transparent;
+  border:none;
+  outline:none;
+  color: #797979;
+  font-size: 19px;
+}
+
+.forgot-password{
+  padding-left: 62px;
+  margin-top: 27px;
+  color: #ffffff;
+  font-size: 18px;
+
+}
+
+.forgot-password span{
+  color:#4c00b4;
+  cursor:pointer;
+  padding-left: 10px;
+}
+
+.submit-container{
+  display:flex;
+  gap:30px;
+  margin: 60px auto;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color:#fff;
+  background: #4c00b4;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.container{
+  margin-top: 10px;
+  background: linear-gradient(360deg,#7a3fe7,#e1ffea22 100%);
+}
+
+
+
+
+
